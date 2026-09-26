@@ -1,0 +1,24 @@
+MAHESHWAR PORTFOLIO — GO LIVE (GitHub Pages + maheswor.com.np)
+==============================================================
+
+BEFORE UPLOAD — do these 3 things:
+  1. Replace maheshwar.jpg with your real photo (keep the filename).
+  2. Add Maheshwar_Raj_Shrestha_Resume.pdf to this folder (hero download link).
+  3. In index.html, replace YOUR_FORM_ID in the contact form action with your Formspree id.
+
+GITHUB PAGES UPLOAD:
+  • Create or open your GitHub repo for the portfolio.
+  • Upload ALL files from this folder to the repo root (same level as index.html).
+  • Include: CNAME, .nojekyll, robots.txt, sitemap.xml (do not skip hidden .nojekyll).
+  • Settings → Pages → Source: Deploy from branch → main (or master) → / (root).
+  • Settings → Pages → Custom domain: maheswor.com.np → Save → wait for DNS check → Enforce HTTPS.
+
+DNS (at your domain registrar):
+  • Follow GitHub docs for apex domain maheswor.com.np (A records to GitHub IPs).
+  • Do NOT point the domain to parking/registrar hosting.
+
+AFTER SITE LOADS ON HTTPS:
+  • Open https://maheswor.com.np/ and test resume, email links, mobile menu, contact form.
+  • Google Search Console → submit https://maheswor.com.np/sitemap.xml
+
+Full details: see DEPLOY.md
